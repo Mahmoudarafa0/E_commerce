@@ -1,0 +1,7 @@
+package com.mahmoud.E_commerce.exception;
+
+public class InsufficientStockException extends RuntimeException {
+    public InsufficientStockException(String message) {
+        super(message);
+    }
+}
