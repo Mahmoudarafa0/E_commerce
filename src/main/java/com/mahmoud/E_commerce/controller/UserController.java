@@ -5,10 +5,12 @@ import com.mahmoud.E_commerce.service.UserService;
 import com.mahmoud.E_commerce.utils.GlobalResponse;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+@Tag(name = "Users")
 @RestController
 @RequestMapping(path = "/api/v1/users")
 @RequiredArgsConstructor
